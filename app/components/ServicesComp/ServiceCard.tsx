@@ -20,6 +20,7 @@ export default function ServiceCard({ content }: { content: Content }) {
       size="lg"
       gap={10}
       alignItems="center"
+      transition="ease-in"
       _hover={{
         boxShadow: "md"
       }}
