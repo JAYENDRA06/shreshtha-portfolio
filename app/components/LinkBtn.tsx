@@ -1,8 +1,19 @@
-import { Link } from '@chakra-ui/react'
-import React from 'react'
+import { Text } from "@chakra-ui/react";
+import Link from "next/link";
+import React from "react";
 
-export default function LinkBtn({ msg, link, isActive, setActiveLink, index }: { msg: string, link: string, isActive?: boolean, setActiveLink: any, index: number }) {
+export default function LinkBtn({
+  msg,
+  link,
+  isActive,
+}: {
+  msg: string;
+  link: string;
+  isActive?: boolean;
+}) {
   return (
-    <Link fontWeight="600" href={link} color={isActive ? "#FF621A" : "black"} onClick={() => setActiveLink(index)} hrefLang={link}>{msg}</Link>
-  )
+    <Link href={link}>
+      <Text fontWeight="600" _hover={{ textDecoration: "underline" }} color={isActive ? "#FF621A" : "black"}>{msg}</Text>
+    </Link>
+  );
 }

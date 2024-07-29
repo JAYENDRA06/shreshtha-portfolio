@@ -10,7 +10,7 @@ export default function OuterWrapper({
 }>) {
   return (
     <Box
-      paddingX="60px"
+      paddingX={{ base: "20px", lg: "60px" }}
       paddingY="15px"
       backgroundColor={bg ? "#FEF9EC" : "white"}
     >

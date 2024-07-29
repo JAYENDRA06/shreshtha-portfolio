@@ -6,15 +6,17 @@ import ActionBtn from "../ActionBtn";
 export default function Main() {
   return (
     <Grid
-      templateColumns="repeat(2, 1fr)"
+      templateColumns={{ base: "repeat(1, 1fr)", lg: "repeat(2, 1fr)" }}
       gap={6}
       alignItems="center"
-      height="80vh"
+      height={{ base: "auto", lg: "80vh" }}
       mt="9vh"
       id="home"
     >
-      <GridItem textAlign="left">
-        <Heading fontSize={50}>Your Partner in Academic Success</Heading>
+      <GridItem textAlign={{ base: "center", lg: "left" }}>
+        <Heading fontSize={{ base: 35, lg: 50 }}>
+          Your Partner in Academic Success
+        </Heading>
         <Text my={10} lineHeight={1.7}>
           {`Hi there! my name is Shreshtha Awasthi, I'm here to support you through your academic journey.
             Whether you're a graduate, postgraduate, or PhD student, I offer a
@@ -22,7 +24,7 @@ export default function Main() {
             and writing process. Let's achieve your academic goals together
             with confidence and excellence.`}
         </Text>
-        <ActionBtn msg="LET'S START" link="" />
+        <ActionBtn msg="LET'S START" link="/#contactus" />
       </GridItem>
       <GridItem>
         <Image

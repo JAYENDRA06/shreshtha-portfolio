@@ -81,10 +81,12 @@ const servicesContent = [
 
 export default function ServicesComp() {
   return (
-    <Flex direction="column" gap={5} id="services">
-      <Heading fontSize="3xl" mt={10} mb={14} color="#FF621A">SERVICES OFFERED</Heading>
-      {servicesContent.map((content) => (
-        <ServiceCard content={content} key={content.heading} />
+    <Flex direction="column" gap={5} id="services" pb={10}>
+      <Heading fontSize="3xl" mt={10} mb={14} color="#FF621A">
+        SERVICES OFFERED
+      </Heading>
+      {servicesContent.map((content, index) => (
+        <ServiceCard content={content} key={content.heading} index={index} />
       ))}
     </Flex>
   );

@@ -24,7 +24,7 @@ const content: { name: string, content: string }[] = [
 
 export default function Testimonials() {
     return (
-        <Flex direction="column" gap={5} id="services">
+        <Flex direction="column" gap={5} pb={10}>
             <Heading fontSize="3xl" mt={10} mb={14} color="#FF621A">TESTIMONIALS</Heading>
             <Marquee pauseOnHover>
                 {content.map((content) => (
