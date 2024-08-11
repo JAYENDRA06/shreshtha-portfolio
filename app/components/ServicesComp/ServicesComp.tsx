@@ -8,11 +8,11 @@ const servicesContent = [
     heading: "Thesis and Dissertation Support",
     content: [
       {
-        title: "Thesis Writing",
-        text: "Expert guidance and support in crafting a well-structured and impactful thesis",
+        title: "Thesis Writing Consultation",
+        text: "Expert advice and support in structuring and refining your thesis",
       },
       {
-        title: "Dissertation Proposal",
+        title: "Dissertation Proposal Guidance",
         text: "Assistance in developing a compelling and robust dissertation proposal",
       },
     ],
@@ -23,11 +23,11 @@ const servicesContent = [
     content: [
       {
         title: "Statistical Analysis",
-        text: "Professional statistical support to help interpret and present data accurately",
+        text: "Professional statistical support to help interpret, analyse and present data accurately",
       },
       {
         title: "Systematic Literatre Reviews",
-        text: "Comprehensive reviews that synthesize existing research in the field",
+        text: "Comprehensive reviews that synthesize existing research in your field",
       },
       {
         title: "Meta-Analysis",
@@ -41,11 +41,11 @@ const servicesContent = [
     content: [
       {
         title: "Journal Selection",
-        text: "Assistance in finding the most appropriate and high-impact journals for publications",
+        text: "Help in identifying the most appropriate and high-impact journals for your publications",
       },
       {
         title: "Poster Creation",
-        text: "High-quality, visually appealing posters for conference presentations",
+        text: "Creation of high-quality, visually appealing posters for conference presentations",
       },
     ],
   },
@@ -63,7 +63,7 @@ const servicesContent = [
       },
       {
         title: "Referencing",
-        text: "Accurate and consistent referencing in the required citation style",
+        text: "Providing accurate and consistent referencing in the required citation style",
       },
     ],
   },
@@ -73,7 +73,7 @@ const servicesContent = [
     content: [
       {
         title: "",
-        text: "Tailored support to meet unique academic needs and research requirements",
+        text: "Tailored support to meet your unique academic needs like consultation call with the expert of your field",
       },
     ],
   },

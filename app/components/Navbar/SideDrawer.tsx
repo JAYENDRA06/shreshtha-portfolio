@@ -56,7 +56,7 @@ export default function SideDrawer({
           </DrawerBody>
 
           <DrawerFooter justifyContent="center" bgColor="#EEEEEE">
-            <Text color="gray">{"made with ❣️ by shreshtha"}</Text>
+            <Text color="gray">{"made with ❣️ by ed pal"}</Text>
           </DrawerFooter>
         </DrawerContent>
       </Drawer>

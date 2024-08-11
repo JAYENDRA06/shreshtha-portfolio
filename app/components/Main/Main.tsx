@@ -18,11 +18,7 @@ export default function Main() {
           Your Partner in Academic Success
         </Heading>
         <Text my={10} lineHeight={1.7}>
-          {`Hi there! my name is Shreshtha Awasthi, I'm here to support you through your academic journey.
-            Whether you're a graduate, postgraduate, or PhD student, I offer a
-            range of services to help you succeed at every stage of your research
-            and writing process. Let's achieve your academic goals together
-            with confidence and excellence.`}
+          {`Hi there! I'm here to support you through your academic journey. Whether you're a graduate, postgraduate, or PhD student, I offer a range of consultation services to help you succeed at every stage of your research and writing process. Let's achieve your academic goals together with confidence and excellence.`}
         </Text>
         <ActionBtn msg="LET'S START" link="/#contactus" />
       </GridItem>

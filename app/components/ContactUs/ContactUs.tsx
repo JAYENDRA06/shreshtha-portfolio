@@ -29,9 +29,7 @@ export default function ContactUs() {
 
   function validatePhno(value: number) {
     let error;
-    if (!value) {
-      error = "Field is required";
-    } else if (value <= 1000000000) {
+    if (value && (value <= 1000000000 || value <= 9999999999)) {
       error = "Please enter valid phone number";
     }
     return error;
@@ -114,7 +112,6 @@ export default function ContactUs() {
                 {({ field, form }: any) => (
                   <FormControl
                     isInvalid={form.errors.phno && form.touched.phno}
-                    isRequired
                   >
                     <FormLabel>Phone number</FormLabel>
                     <Input {...field} placeholder="0000000000" type="number" />
